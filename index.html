@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Web</title>
+
+    <!-- Box Icons  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Remix Icons-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <!--Header-->
+    <header>
+      <a href="#" class="logo">
+        <img src="./img/logo.png" alt="logo" />
+      </a>
+
+      <ul class="navlist">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Member</a></li>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="right-content">
+        <a href="#" class="nav-btn">Signin</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-text">
+        <h5 data-aos="fade-right" data-aos-duration="1400">#Coffee For Hot Days</h5>
+        <h1 data-aos="fade-left" data-aos-duration="1400"  data-aos-delay="200">- Cold Coffee Brew</h1>
+        <p data-aos="fade-left" data-aos-duration="1400"  data-aos-delay="300">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus
+          ad, laudantium qui quidem inventore voluptas id minus rem!
+        </p>
+
+        <div class="main-hero" data-aos="flip-down" data-aos-duration="1400"  data-aos-delay="400">
+          <a href="#" class="btn">Order Now</a>
+          <a href="#" class="price">$16.00 | <span>Regular Price</span></a>
+        </div>
+      </div>
+      <div class="hero-img" data-aos="zoom-in" data-aos-duration="1400">
+        <img src="./img/hero.png" alt="img" />
+      </div>
+    </section>
+
+    <div class="icons">
+      <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="600"><i class="ri-facebook-fill"></i></a>
+      <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="700"><i class="ri-youtube-line"></i></a>
+      <a href="#" data-aos="fade-in" data-aos-duration="1400" data-aos-delay="800"><i class="ri-github-line"></i></a>
+    </div>
+
+    <div class="scroll" data-aos="zoom-out" data-aos-duration="1400" data-aos-delay="550">
+      <a href="#"><i class="ri-scroll-to-bottom-line"></i></a>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 1,
+      });
+    </script>
+  </body>
+</html>
